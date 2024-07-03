@@ -1,0 +1,182 @@
+{
+	"id": "5ec62158-24f1-4dac-b359-9f2714039c91",
+	"name": "LOGISTICS",
+	"timestamp": "2024-07-03T14:39:17.688Z",
+	"collection_id": "106965-435d0343-f619-4376-927a-ecd08f21c489",
+	"folder_id": "106965-3494e5e8-3cc7-402c-9516-37cfbe7c3be5",
+	"environment_id": "106965-0d096795-b97d-4158-be84-2ae4547224d1",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-07-03T14:35:41.413Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "99d071f4-b7dd-4b39-b323-db97acb2821f",
+			"name": "paging",
+			"url": "https://logistics-service-prod-domainservices.apps.osprod.cp.cloud/logistics/v1/warehouse/dispatch-orders/search?location=GRG&operative=SKINMEDIA",
+			"time": 4172,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				6786,
+				5449,
+				3717,
+				4227,
+				4217,
+				4131,
+				5198,
+				4215,
+				4704,
+				4172
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "24248343-94d5-42b5-96cf-11ae25052b33",
+			"name": "sorting",
+			"url": "https://logistics-service-prod-domainservices.apps.osprod.cp.cloud/logistics/v1/warehouse/dispatch-orders/search?location=GRG&operative=SKINMEDIA",
+			"time": 5016,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				6727,
+				6109,
+				4718,
+				4915,
+				5141,
+				4703,
+				5194,
+				4752,
+				5219,
+				5016
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "79c1e8cf-fb79-42be-9bdc-aa16562cebb2",
+			"name": "filter",
+			"url": "https://logistics-service-prod-domainservices.apps.osprod.cp.cloud/logistics/v1/warehouse/dispatch-orders/search?location=GRG&operative=SKINMEDIA",
+			"time": 2692,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				4687,
+				4128,
+				2948,
+				3234,
+				3295,
+				2850,
+				3704,
+				2471,
+				2673,
+				2692
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "5dbda3f8-e914-4f59-a35f-f7d8e1a2d80b",
+			"name": "quicksearch",
+			"url": "https://logistics-service-prod-domainservices.apps.osprod.cp.cloud/logistics/v1/warehouse/dispatch-orders/search?location=ORD&operative=WATERDROP",
+			"time": 11891,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				8033,
+				11405,
+				10593,
+				6714,
+				6568,
+				8307,
+				5885,
+				6298,
+				5303,
+				11891
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		}
+	],
+	"count": 10,
+	"totalTime": 212989,
+	"collection": {
+		"requests": [
+			{
+				"id": "99d071f4-b7dd-4b39-b323-db97acb2821f",
+				"method": "POST"
+			},
+			{
+				"id": "24248343-94d5-42b5-96cf-11ae25052b33",
+				"method": "POST"
+			},
+			{
+				"id": "79c1e8cf-fb79-42be-9bdc-aa16562cebb2",
+				"method": "POST"
+			},
+			{
+				"id": "5dbda3f8-e914-4f59-a35f-f7d8e1a2d80b",
+				"method": "POST"
+			}
+		]
+	}
+}
