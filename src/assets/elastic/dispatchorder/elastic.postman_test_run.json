@@ -1,0 +1,182 @@
+{
+	"id": "d23af055-322a-4e17-abd1-65eb4d02091f",
+	"name": "LOGISTICS",
+	"timestamp": "2024-07-03T19:16:32.112Z",
+	"collection_id": "106965-435d0343-f619-4376-927a-ecd08f21c489",
+	"folder_id": "106965-7e1e9e6c-f719-4935-ae50-0b4f7964a3af",
+	"environment_id": "106965-0d096795-b97d-4158-be84-2ae4547224d1",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-07-03T19:16:25.088Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "87d7f520-c414-4fa5-a36e-e679a4ed764a",
+			"name": "paging",
+			"url": "https://umbrella-service.prod-ecommerce.apps.osprod.cp.cloud/umbrella-entity/elastic/dispatch-orders/search",
+			"time": 65,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				178,
+				50,
+				50,
+				48,
+				74,
+				51,
+				54,
+				51,
+				50,
+				65
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "575f3701-1818-4347-a550-b08222e7b834",
+			"name": "sorting",
+			"url": "https://umbrella-service.prod-ecommerce.apps.osprod.cp.cloud/umbrella-entity/elastic/dispatch-orders/search",
+			"time": 60,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				58,
+				62,
+				55,
+				75,
+				56,
+				53,
+				57,
+				61,
+				69,
+				60
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "920e4016-1f4a-483a-bcef-deecd44d9b41",
+			"name": "filter",
+			"url": "https://umbrella-service.prod-ecommerce.apps.osprod.cp.cloud/umbrella-entity/elastic/dispatch-orders/search",
+			"time": 40,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				37,
+				36,
+				35,
+				36,
+				42,
+				66,
+				58,
+				35,
+				42,
+				40
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "0ec55048-ded5-4a14-90b5-42141402e18c",
+			"name": "quicksearch",
+			"url": "https://umbrella-service.prod-ecommerce.apps.osprod.cp.cloud/umbrella-entity/elastic/dispatch-orders/search",
+			"time": 138,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				143,
+				132,
+				159,
+				141,
+				150,
+				173,
+				134,
+				124,
+				125,
+				138
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		}
+	],
+	"count": 10,
+	"totalTime": 3123,
+	"collection": {
+		"requests": [
+			{
+				"id": "87d7f520-c414-4fa5-a36e-e679a4ed764a",
+				"method": "POST"
+			},
+			{
+				"id": "575f3701-1818-4347-a550-b08222e7b834",
+				"method": "POST"
+			},
+			{
+				"id": "920e4016-1f4a-483a-bcef-deecd44d9b41",
+				"method": "POST"
+			},
+			{
+				"id": "0ec55048-ded5-4a14-90b5-42141402e18c",
+				"method": "POST"
+			}
+		]
+	}
+}
